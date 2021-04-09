@@ -66,7 +66,7 @@ def main(argv):
    final = mp.CompositeVideoClip([video, logo])
    final.write_videofile(out)
    
-   url = 'https://get-data.worldofsports.com.au?auth=' + keypass + '&handle=stream'
+   url = 'https://xxxxxx.com.au?auth=' + keypass + '&handle=stream'
    print ('Posting Data To ' + url)
 
    userdata = {"loc": out, "stamp": dt_stamp, "Auth": keypass, "handle": "stream"}
